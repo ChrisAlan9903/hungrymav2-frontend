@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page {
+  min-height: 100%;
+  padding: 5vh 10vw;
+  @media (max-width: 576px) {
+    padding: 5vh 5vw;
+  }
+}
